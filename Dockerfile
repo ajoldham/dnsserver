@@ -4,7 +4,7 @@ MAINTAINER sameer@damagehead.com
 
 ENV BIND_USER=bind \
     BIND_VERSION=1:9.10.3 \
-    WEBMIN_VERSION=1.8 \
+    WEBMIN_VERSION=1.910 \
     DATA_DIR=/data
 
 RUN apt-get update
