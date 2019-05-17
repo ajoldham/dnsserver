@@ -31,4 +31,9 @@ Password: password
 
 Note:  You may need to disable/allow a local firewall to receive UDP 53 DNS requests in Docker.
 
+Ubuntu can have local DNS disabled with:
+```php
+sudo service systemd-resolved stop
+```
+
 Credit to Docker source from here : https://github.com/sameersbn/docker-bind
